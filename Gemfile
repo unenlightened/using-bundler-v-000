@@ -9,6 +9,3 @@ gem "pry", :group => "development"
 group :test do
   gem 'rspec'
 end
-
-
-expect(@bundle_output =~ /rspec/).not_to eq(nil)
