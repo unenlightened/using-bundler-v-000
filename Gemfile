@@ -5,8 +5,7 @@ gem "hashie"
 gem "cctokit", "~> 2.0"
 gem "awesome_print", :source => "git@github\.com:awesome\-print\/awesome_print\
 .git"
-
-
+gem "pry", :group => "development"
 group :development do
   gem "pry"
 end
